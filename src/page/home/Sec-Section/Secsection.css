@@ -1,0 +1,70 @@
+/* Sec-Section  */
+
+.intro {
+  width: 100%;
+  height: 67vh;
+  background-image: linear-gradient(to right, #e4feff, #bde9eb);
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro-info {
+  display: flex;
+  flex-direction: column;
+  margin: 10%;
+  justify-content: center;
+}
+
+.int {
+  margin-bottom: 5rem;
+}
+
+.int p {
+  color: var(--ThColor);
+  line-height: 2;
+  font-size: 1.5rem;
+  margin-top: 4em;
+}
+
+.int h1 {
+  color: black;
+  line-height: 1;
+  font-size: 2rem;
+}
+
+.knowing {
+  margin-bottom: 20%;
+  position: relative;
+  bottom: 3rem;
+}
+
+.knowing p {
+  color: #817373;
+  line-height: 1.5;
+}
+
+.robotHand {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.robotHand img {
+  width: 100%;
+  height: 300px;
+  margin-top: 2.3rem;
+}
+@media screen and (max-width: 550px) {
+  .robotHand img {
+    display: none;
+  }
+}
+@media screen and (max-width: 650px) {
+    .int h1{
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    .intro{
+        height:73vh;
+    }
+  }
+  

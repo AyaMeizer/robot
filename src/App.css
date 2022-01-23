@@ -1,0 +1,18 @@
+
+* {
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+  font-size: 16px; 
+}
+
+:root {
+  --MainColor : white ; 
+  --SecColor :  #bde9eb;
+  --ThColor : #068244; 
+  --btnColor : #14bf98 ;
+  --bgColor : black;
+}
+
+
+

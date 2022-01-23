@@ -1,0 +1,88 @@
+
+
+ /* Thierd-section */
+
+
+
+ card-info {
+     background-color: black;
+     display: flex;
+     width: 150%;
+     min-height: 50vh;
+ }
+
+
+ .title {
+     display: flex;
+     justify-content: center;
+     font-size: 2.5rem; 
+     margin-top: 90px;
+     /* text-decoration: underline; */
+ }
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 3em 0 0;
+    align-items: stretch;
+    padding: 2em;
+} 
+
+
+.card {
+    background-color: #e9f7f7;
+    width: 23em;
+    padding: 1rem;
+    /* border: 1px solid var(--SecColor); */
+    border-radius: 1em;
+    transition: 0.4s ease;
+    margin: 1em 0;
+    color: #636362;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.582);
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.card img {
+    padding: 7px;
+}
+
+.main-icon hr {
+    border-top: 1px solid whitesmoke ; 
+}
+
+
+
+.icon-info  p {
+    font-size: 1.5rem;
+    text-align: start;
+    margin-top: 2rem;
+    line-height: 2    ;
+    padding: 10px ;
+    font-size: 1.2rem;
+} 
+
+.vera {
+    width : 150px ;
+    height: 75px;
+}
+
+
+.perform {
+    width: 200px;
+    height: 75px;
+}
+
+
+.bot {
+    width: 170px;
+    height: 75px;
+}
+
+.card:hover {
+    background-color: #daf3f4;
+    cursor: pointer;
+    transform: translateY(-1.05em);
+}
